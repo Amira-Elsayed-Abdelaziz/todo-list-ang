@@ -1,0 +1,16 @@
+
+<app-add (sendToWrapper)="addtolist($event)"></app-add>
+<div class="d-flex flex-column justify-content-between mt-5">
+    <div class="container d-flex justify-content-between ">
+        <p class="col-9 pe-">Task</p>
+        <p> </p>
+
+    </div>
+
+    @for (item of list; track $index ) {
+
+    <app-list class="container d-flex justify-content-between" [itemtolist]="item" [id]="$index"
+        (sendidtoparent)="delete($event)" (sendidtoparentcomp)="done($event)"> </app-list>
+    }
+
+</div>
