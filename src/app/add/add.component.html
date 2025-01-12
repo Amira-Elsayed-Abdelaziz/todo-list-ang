@@ -1,7 +1,5 @@
-<div class="d-flex flex-column col-12 justify-content-between align-items-center bg-primary " style="height:250px;">
-    <h2 class="text-white mt-5">LET'S FINISH SOME WORK!</h2>
-    <div class="d-flex  flex-column align-items-center mb-5">
-        <input #in class="form-control me-2" style="width:500px" type="text" placeholder="type here .." aria-label="Search">
-        <button class="btn btn-light mt-2 " style="width:250px;" (click)="add(in.value)">Add</button>
-    </div>
+<div class="add-all">
+  <h2>LET'S FINISH SOME WORK!</h2>
+  <input #in type="text" placeholder="type here .." />
+  <button (click)="add(in.value)">Add</button>
 </div>

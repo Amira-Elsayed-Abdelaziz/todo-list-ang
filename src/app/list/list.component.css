@@ -1,0 +1,33 @@
+
+.single-task {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    color: white;
+    /* margin: 3% 0% 3% 0%; */
+    border-bottom: 1px solid white;
+    padding: 10px 10px 10px 10px;
+}
+
+.single-task label {
+    padding-left: 5px;
+}
+
+.single-task button {
+    height: 40px;
+    width: 80px;
+    background-color: var(--blue);
+    color: white;
+    transition: background-color 1s;
+    transition-timing-function: ease-in-out;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.single-task button:hover {
+    background-image: none;
+    background-color: var(--purple);
+    /* transition: 1s; */
+
+}

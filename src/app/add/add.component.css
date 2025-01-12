@@ -1,0 +1,53 @@
+.add-all {
+    display: flex;
+    flex-direction: column;
+    
+    height: 35vh;
+    /* margin: 10% 0% 10% 0%; */
+
+}
+
+h2 {
+    color: white;
+    margin: 10% 0% 0% 0%;
+}
+
+input {
+    background-color: transparent;
+    margin: 5% 0 5% 0;
+    border: none;
+    border-radius: 5px;
+    height: 50px;
+    box-shadow: -3px -3px 10px 3px var(--purple), 3px 3px 10px 3px var(--blue);
+    padding: 0 5%;
+    color: white;
+}
+
+input:focus {
+    outline: none;
+    color: white;
+
+
+}
+
+input::placeholder {
+    padding: 0 5%;
+}
+
+button {
+    height: 50px;
+    background-color: var(--blue);
+    color: white;
+    transition: background-color 1s;
+    transition-timing-function: ease-in-out;
+    border: none;
+    border-radius: 5px;
+
+}
+
+button:hover {
+    background-image: none;
+    background-color: var(--purple);
+    /* transition: 1s; */
+
+}
